@@ -1,0 +1,6 @@
+<form action="{% url 'blog:search' %}" method="GET">
+    <div class="field">
+        {{ search_form.key_word }}
+        <button type="submit" id="search" class="search-btn"></button>
+    </div>
+</form>
